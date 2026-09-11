@@ -1,0 +1,14 @@
+# Ignore database files
+data/mysql/db/
+
+# Ignore logs
+*.log
+
+# Ignore build artifacts
+target/
+build/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
