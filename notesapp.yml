@@ -16,7 +16,7 @@ services:
   django_app:
     build:
       context: .
-    image: notesapp
+    image: prathamesh777/jenkins:notes-app
     container_name: "django_cont"
     ports:
       - "8000:8000"
